@@ -1,0 +1,20 @@
+.galery .foto {
+  cursor: pointer;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-shadow: 0px 0px 15px black;
+}
+
+.galery .foto:hover {
+  box-shadow: 0px 0px 2px 1px black;
+}
+
+.galery .foto svg {
+  align-self: flex-end;
+}
